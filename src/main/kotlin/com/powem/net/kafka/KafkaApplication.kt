@@ -8,8 +8,6 @@ import org.springframework.kafka.annotation.EnableKafka
 class KafkaApplication
 
 fun main(args: Array<String>) {
-//	println("THIS IS WHERE THE APP STARTS")
 	runApplication<KafkaApplication>(*args)
-//	println("THIS IS WHERE THE APP STARTS 2222222")
 
 }
