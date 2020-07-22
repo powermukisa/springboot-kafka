@@ -10,7 +10,6 @@ import org.springframework.kafka.core.ConsumerFactory
 import org.springframework.kafka.core.DefaultKafkaConsumerFactory
 import java.util.*
 
-
 @EnableKafka
 @Configuration
 class KafkaConsumerConfig {
