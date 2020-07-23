@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component
 
 @Component
 class KafkaMessageListenerBean {
-    @KafkaListener(topics = ["test"])
+    @KafkaListener(topics = ["test", "test2"])
     fun processMessage(content: String?) {
         println("New message received: Message content --> $content")
     }

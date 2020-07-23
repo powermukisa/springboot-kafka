@@ -9,5 +9,4 @@ class KafkaApplication
 
 fun main(args: Array<String>) {
 	runApplication<KafkaApplication>(*args)
-
 }
